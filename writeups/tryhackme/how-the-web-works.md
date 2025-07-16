@@ -42,3 +42,46 @@ url - uniform resource locator
 there's explainations on splitting up the url, and what it all means. i get the gist.
 
 making a request  - GET/HTTP/1.1
+you also need to send in other data, in headers. 
+
+GET - used for getting information from a web server
+POST - submitting data to web server
+PUT - updating info
+DELETE - deleting info from web server
+
+HTTP status codes
+100 - 199 - info response
+200 - 299 - success
+300 - 399 - redirection
+400 - 499 - client error
+500 - 599 - server error
+
+headers
+host - holds mutiple websites
+user-agent - browser software and num
+content-length - ensures there is no missing data
+accept-encoding - what type od compression browser supports
+cookie - data sent to server to remember info
+
+when making requests, you can add parameters to them. thats the ?
+e.g. http://tryhackme.com/blog?id=1
+blog is the page, id=1 is a parameter. 
+
+
+#How websites work
+
+front end - client side, way browser renders a website
+back end - server side, processes request and returns a response. 
+
+html - hyper text markup language.
+
+sensitive data exposure - when a website doesn't ptoyrct info properly. 
+
+html injection is a vulnerability that occurs when unfiletered user input is displayed on the page. 
+okay i hacked like 2 vulnerable website things, one was looking in the source code for a hidden password, using the developer tools. The other was using an input, inputting in directly html to create a "malicious" link.
+
+Load Balancers - ensure high traffic websites can handle the load, and provide a failover if server becomes unresponsive. 
+CDN (content delivery networks) = cuts down traffic on busy website. host static files from website. 
+Databases = store data
+WAF(web application firewall) = protects the webserver from hacking. 
+
