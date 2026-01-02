@@ -1,2 +1,1 @@
-Place to curate all my projects.
-I liked the pun so hack to the future ._.
+Projects!! Will try and remember to add to it!
